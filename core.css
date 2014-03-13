@@ -1,0 +1,30 @@
+article,div,nav,header,section,footer,aside,main{
+	overflow:hidden;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+body{ 	/*clear margin and*/
+	margin:0;
+	padding:0;
+	}
+.wrapper{ /*main width and centering*/
+	width:960px;
+	margin:auto;
+	}
+.brad{
+	border-radius:10px;
+	}
+.brad-min{
+	border-radius:5px;
+	}
+.bradnl{ /*remove border radius left*/	
+	border-top-left-radius:0;
+	border-bottom-left-radius:0;
+	}
+.bradnr{ /*remove border radius right*/	
+	border-top-left-radius:none;
+	border-bottom-left-radius:none;
+	}
+/*Styling*/
+.bxsdw{-webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.25);-moz-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.25);box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.25);}
+/*End of Styling*/
