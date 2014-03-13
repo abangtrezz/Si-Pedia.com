@@ -1,0 +1,97 @@
+/*Core Element*/
+	body{margin-top:35px; background:url('img/bg.png') #f3f3f3;}
+/*End of Core Element*/
+/*Header*/
+	#header{background:url('img/header.png')}
+	#header a{display:none;}
+/* End of Header*/
+
+/*Content-area*/
+#content-area>#comments, #content-area #post, #content-area  aside{padding:10px; background:#fff; border:1px #dadada solid;-webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.5);-moz-box-shadow:1px 1px 1px 0px rgba(50, 50, 50, 0.5);box-shadow:1px 1px 1px 0px rgba(50, 50, 50, 0.5);margin-top:15px;border-radius:10px; width:670px; position:relative; left:0px; display:inline-block}
+	/*Comment Area*/
+		#comments > header {height: 50px; padding: 0px 40px; background: #ff7e00;color: #fff;display: inline-block; position: relative; left: -24px;margin-top: 6px;}
+		#comments > header > h3 {font-weight: bolder; font-size: 1.5em; padding: 0; margin: 9px 0px;}
+		#comments {overflow: visible;margin-bottom: 15px;}
+		#comments .comment {background: #f8f8f8;border: 1px solid #d8d8d8; margin-top: 19px; position:relative;padding: 20px;}
+		#comments .comment:nth-child(odd){left: -18px; padding-left: 55px;}
+		#comments .comment:nth-child(even){right: -18px; padding-left: 22px;}
+	/*End of Comment Area*/	
+	/*Images*/
+		#post img.thumb {border: 2px solid #fff;padding-top:6px;background:#ff6600;}
+		#post img.thumb:hover {background:#6b4400;}
+		#post img {border:2px solid #fff;}
+	/*End of Images*/	
+	/*Author Area*/
+	#author-bio{}
+	#author-bio .thumb {vertical-align: middle;text-align: center;display: table-cell;width: 139px;}
+	#author-bio .summary {width: 504px;border-bottom-right-radius: 10px;background: #f9f9f9;border-top-right-radius: 10px;border: 1px solid #c3c3c3;padding: 13px 13px 10px 20px;display: table-cell;}
+	#author-bio .summary {font-size: .9em; color: #797979;}
+	#author-bio .summary > h4 {padding: 0px;margin: 0px;}
+	#author-bio .summary > h4 > a { color: #ac6500;}
+	#author-bio .thumb > img {vertical-align: inherit;margin: auto;}
+	/* End of Author Area*/
+/* End of Content Area*/
+
+/*Navigation*/
+	#top-nav li{
+		display:table-cell;
+		border-left:solid 1px #ff873c;
+		padding: 9px 10px 8px 10px;
+		height:35px;
+		margin:0px;
+		}
+	#top-nav li:hover{
+		background:black;
+		}
+	#top-nav a{
+		color:inherit;
+		}
+/*End of Navigation*/
+
+/*Sidebar*/
+.sidebar-area{}
+.j-sidebar{padding:10px; background:#fff; border:1px #dadada solid;-webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.5);-moz-box-shadow:1px 1px 1px 0px rgba(50, 50, 50, 0.5);box-shadow:1px 1px 1px 0px rgba(50, 50, 50, 0.5);margin-top:15px;border-radius:10px;
+	border-top-left-radius:0;
+	border-bottom-left-radius:0;
+	border-left:none;
+}
+/* End of Sidebar*/
+
+/*Widget*/
+.j-sidebar .widget-title{
+		background:#ff7e00;
+		color:#fff;
+		text-align:center;
+		text-transform:uppercase;
+		margin: 0;
+		padding: 4px;
+		font-size: 1.3em;
+	}
+.j-sidebar a{
+	color:inherit;
+	}
+.j-sidebar a:hover{
+	color:#efefef;
+	}
+	/*Subscribe and Follow button*/
+		#subscribe-form {  background:#506d94; border: 1px solid #C7DEFF; border-radius: 3px; margin: 2px 18px;
+		color: #fff; font-size: .9em;  padding: 24px 10px 15px 10px;}
+		#mce-EMAIL {background: #fff;padding: 7px 3px; width: 138px;border: #08318A 1px solid;}
+		#mc-embedded-subscribe {border: #000 1px solid; background: #424242; padding: 7px 4px; border-radius: 2px;}
+		#subscribe-form label{display:block;}
+		#subscribe-form  .clear { display: inline;}
+	/*End Subscribe and Follow button*/
+	/*Sidebar Ads*/
+		#square-sideads{width:250px;}
+	/*End Sidebar Ads*/
+	/*Popular Post*/
+		#widget-poppost .title{padding:1px 0px 4px 0px; margin:0px; color:#ff7e00;}
+		#widget-poppost .thumb img{height: 60px;width: 60px;border-top: 1px solid #b06c0c;}
+		#widget-poppost .thumb {float:left;}
+		#widget-poppost .wr{padding: 0px 9px;}
+		#widget-poppost .sum{font-size:.8em;}
+		#widget-poppost .more{;float:left;color:#fff;background:#9b6a00; padding:3px 6px; border:solid 1px #493200;font-size:.8em; margin:4px 0}
+		#widget-poppost .item{border-bottom:1px dotted #ff7e00; padding-bottom:10px; margin-top:30px;}
+		#widget-poppost .item:last-child{border:none;}
+	/*End Sidebar Adst*/	
+/*End of Widget*/
